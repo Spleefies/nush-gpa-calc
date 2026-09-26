@@ -227,7 +227,7 @@ function calculateGPA() {
         gpa = totalGradePoints / totalUnits;
     }
 
-    document.getElementById('gpa-value').textContent = gpa.toFixed(1); // Display GPA to 2 decimal places
+    document.getElementById('gpa-value').textContent = gpa.toFixed(2); // Display GPA to 2 decimal places
 }
 
 calculateGPA();
